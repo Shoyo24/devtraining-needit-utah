@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Request Intake Form">3c110c7c473402102984c7de826d430d</sc_cat_item>
+        <sc_category display_value="Business Application Lifecycle Management">31bbeaf8e4001410f877ce457cda6be2</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-04 19:22:53</sys_created_on>
+        <sys_id>b1e2ccfc473402102984c7de826d43c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Business Application Lifecycle Management.Request Intake Form</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sc_cat_item_category_b1e2ccfc473402102984c7de826d43c2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-04 19:22:53</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>ec0c395ddbd74458387021c40596198e</instance_id>
+        <instance_name>dev101846</instance_name>
+        <name>sc_cat_item_category_b1e2ccfc473402102984c7de826d43c2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Request Intake Form">3c110c7c473402102984c7de826d430d</sc_cat_item><sc_category display_value="Business Application Lifecycle Management">31bbeaf8e4001410f877ce457cda6be2</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-04 19:22:53</sys_created_on><sys_id>b1e2ccfc473402102984c7de826d43c2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Business Application Lifecycle Management.Request Intake Form</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sc_cat_item_category_b1e2ccfc473402102984c7de826d43c2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-04 19:22:53</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-1421730230</payload_hash>
+        <record_name>Business Application Lifecycle Management.Request Intake Form</record_name>
+        <reverted_from/>
+        <source>3e4c9613472482102984c7de826d4350</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-04 19:22:53</sys_created_on>
+        <sys_id>b1e2ccfc473402102984c7de826d43c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e0aeb425d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-04 19:22:53</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>f5e2ccfcd63402107800d5b75a1d23c4</update_guid>
+        <update_guid_history>f5e2ccfcd63402107800d5b75a1d23c4:-1421730230</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Business Application Lifecycle Management.Request Intake Form">45d38c30477402102984c7de826d439e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-04 19:26:57</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>b88314fe73b04f3e8355388c5c499924</sys_id>
+        <sys_metadata>b1e2ccfc473402102984c7de826d43c2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Business Application Lifecycle Management.Request Intake Form</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_b1e2ccfc473402102984c7de826d43c2</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_b1e2ccfc473402102984c7de826d43c2">b1e2ccfc473402102984c7de826d43c5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-04 19:26:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

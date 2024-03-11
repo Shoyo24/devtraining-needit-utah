@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Business Intake">e06650b4477402102984c7de826d43ae</cat_item>
+        <cat_variable/>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Auto Populate Requested For Field</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	// Get the current user's sys_userName
+	var currentUserID = g_user.userID;
+
+	alert(currentUserID);
+
+	// Set the value of the requested_for field to the current user's sys_userName
+	// g_form.setValue('requested_for', currentUserID);
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-04 21:19:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f55c5c3847b402102984c7de826d4341</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Auto Populate Requested For Field</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>catalog_script_client_f55c5c3847b402102984c7de826d4341</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-04 21:52:55</sys_updated_on>
+        <table/>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>ec0c395ddbd74458387021c40596198e</instance_id>
+        <instance_name>dev101846</instance_name>
+        <name>catalog_script_client_f55c5c3847b402102984c7de826d4341</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Business Intake"&gt;e06650b4477402102984c7de826d43ae&lt;/cat_item&gt;&lt;cat_variable/&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Auto Populate Requested For Field&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+	// Get the current user's sys_userName
+	var currentUserID = g_user.userID;
+
+	alert(currentUserID);
+
+	// Set the value of the requested_for field to the current user's sys_userName
+	// g_form.setValue('requested_for', currentUserID);
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-04 21:19:56&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f55c5c3847b402102984c7de826d4341&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;Auto Populate Requested For Field&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_f55c5c3847b402102984c7de826d4341&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-04 21:52:55&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2113303565</payload_hash>
+        <record_name>Auto Populate Requested For Field</record_name>
+        <reverted_from/>
+        <source>3e4c9613472482102984c7de826d4350</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-04 21:52:55</sys_created_on>
+        <sys_id>af35ec7047f402102984c7de826d43e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e0b749e5f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-04 21:52:55</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>6735ec70e4f40210fb47d49560e606e2</update_guid>
+        <update_guid_history>6735ec70e4f40210fb47d49560e606e2:2113303565,abb424b0a8f4021029a89df95a1b7679:1776039038,3754ec7017f402103b5ff4bf5cc90649:1636001120,3043e83087f402106438d3f8f96c8e58:-1810580579,3e2360302af40210ee9a5d5357d3e3fb:-783023060,871ed8b891b402103bde8256fee15dee:1012560952,24ed94b825b40210693cb30fdd660435:-908203123,18bddc784eb40210f538bdc1df70f736:906027378</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Auto Populate Requested For Field">d502a58d477842102984c7de826d43b0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 20:56:57</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>16a955274b374b069909ab68ce452491</sys_id>
+        <sys_metadata>f55c5c3847b402102984c7de826d4341</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Auto Populate Requested For Field</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>catalog_script_client_f55c5c3847b402102984c7de826d4341</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_f55c5c3847b402102984c7de826d4341">af35ec7047f402102984c7de826d43e2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-05 20:56:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
